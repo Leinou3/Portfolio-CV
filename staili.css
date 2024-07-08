@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    background: url('https://www.ssi-corporate.com/wp-content/uploads/2019/06/boat-render-lines-e1559757601806-1-1200x705.jpeg') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    color: #000;
+    text-shadow: none;
+}
+
+#about, #work-experience, #education, #contact {
+    transition: all 0.3s ease-in-out;
+}
+
+#about:hover, #work-experience:hover, #education:hover, #contact:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#about {
+    background: url('https://www.collegechalo.com/news/wp-content/uploads/2021/11/Marine-Technology-Case-Studies-Header.jpg') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#work-experience {
+    background: url('https://www.cmbg3.com/library/PFAS-EU-Companies-scaled.jpg') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#education {
+    background: url('https://images.adsttc.com/media/images/547c/8688/e58e/ce90/d800/00f4/large_jpg/P3.jpg?1417447024') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    background: linear-gradient(135deg, #1e90ff, #ff7f50);
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
